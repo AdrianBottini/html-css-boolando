@@ -23,7 +23,7 @@ header {
     margin: 40px;
 }
 
-a{
+.a{
     text-decoration: none;
     padding: 20px;
     color: white;
@@ -96,4 +96,30 @@ i{
 
 .img1:hover {
     opacity: 0;
+}
+
+.heart {
+    color: black;
+    position: absolute;
+    bottom: 700px;
+    left: 500px;
+    background-color: white;
+    font-size: 40px;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.heart2 {
+    color: black;
+    position: absolute;
+    bottom: 700px;
+    left: 1130px;
+    background-color: white;
+    font-size: 40px;
+}
+
+.heart2:hover {
+    color: red;
 }
