@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    padding-top: 200px;
+}
+
 header {
     background-color: orange;
     display: flex;
@@ -12,6 +16,8 @@ header {
     width: 100%;
     height: 100px;
     z-index: 1;
+    top: 0;
+    align-items: center;
 }
 
 .img-logo {
@@ -30,7 +36,6 @@ header {
 }
 
 .loghi {
-    margin: 40px;
     width: 300px;
     color: white;
 }
@@ -40,8 +45,7 @@ i{
 }
 
 .img1 {
-    margin-top: 200px;
-    width: 490px;
+    width: 100%;
     position: absolute;
 }
 
@@ -53,6 +57,8 @@ i{
 .immagine {
     width: calc(100% / 3 - 2em);
     margin-left: 2em;
+    position: relative;
+    margin-bottom: 50px;
 }
 
 .percentuale {
@@ -84,14 +90,8 @@ i{
     text-decoration: line-through;
 }
 
-.immagine2 {
-    width: calc(100% / 3 - 2em);
-    margin-left: 2em;
-}
-
 .img1b {
-    margin-top: 200px;
-    width: 490px;
+    width: 100%;
 }
 
 .img1:hover {
@@ -101,25 +101,12 @@ i{
 .heart {
     color: black;
     position: absolute;
-    bottom: 700px;
-    left: 500px;
+    top: 0;
+    right: 0;
     background-color: white;
     font-size: 40px;
 }
 
 .heart:hover {
-    color: red;
-}
-
-.heart2 {
-    color: black;
-    position: absolute;
-    bottom: 700px;
-    left: 1130px;
-    background-color: white;
-    font-size: 40px;
-}
-
-.heart2:hover {
     color: red;
 }
