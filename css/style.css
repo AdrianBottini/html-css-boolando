@@ -110,3 +110,31 @@ i{
 .heart:hover {
     color: red;
 }
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    padding-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+.info {
+    text-decoration: none;
+    color: white;;
+    padding: 30px;
+}
+
+.loghi-finali {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
