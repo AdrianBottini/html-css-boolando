@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+}
+
+.img-logo {
+    width: 300px;
+    padding: 20px;
+}
+
+.scelte {
+    margin: 40px;
+}
+
+a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+
+.loghi {
+    margin: 40px;
+    width: 300px;
+    color: white;
+}
+
+i{
+    padding: 10px;
+}
+
+img {
+    padding-top: 40px;
+    width: 500px;
+}
