@@ -114,23 +114,15 @@ i{
 footer {
     background-color: black;
     color: white;
-}
-
-.container-footer {
     display: flex;
-    flex-direction: column;
-}
-
-.footer {
-    padding-top: 30px;
-    margin-bottom: 50px;
-    margin-left: 40px;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .info {
     text-decoration: none;
     color: white;;
-    padding: 30px;
+    padding: 5px;
 }
 
 .loghi-finali {
