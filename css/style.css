@@ -101,7 +101,7 @@ i{
 .heart {
     color: black;
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 0;
     background-color: white;
     font-size: 40px;
